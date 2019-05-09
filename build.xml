@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="add" default="jar">
+    <target name="jar">
+        <jar destfile="add.jar" basedir="build/classes/">
+            <manifest>
+                <attribute name="Main-class" value="Add" />
+            </manifest>
+        </jar>
+    </target>
+</project>
